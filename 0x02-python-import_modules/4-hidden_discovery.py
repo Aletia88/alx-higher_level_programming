@@ -2,7 +2,7 @@
 import hidden_4
 
 
-def name():
+def username():
     name = dir(hidden_4)
     for i in name:
         if i[:2] != '__':
@@ -10,4 +10,4 @@ def name():
 
 
 if __name__ == "__main__":
-    discovr()
+    username()
