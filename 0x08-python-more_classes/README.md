@@ -1,1 +1,1 @@
-more on class and object
+more on class
