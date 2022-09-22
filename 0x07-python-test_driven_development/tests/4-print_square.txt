@@ -1,0 +1,9 @@
+======================
+doctest file for print square function
+=========================
+
+Import print square function
+
+::
+
+>>> print_square = __import__('4-print_square').print_square
