@@ -26,6 +26,8 @@ how to use
 [10, 20, 40, 30, 50]
 
 >>> my_list = MyList()
+>>> print(my_list)
+[]
 
 >>> my_list.append(-1)
 >>> my_list.append(-5)
@@ -39,3 +41,4 @@ how to use
 
 >>> print(my_list)
 [-1, -5, -3]
+
