@@ -6,4 +6,4 @@ def read_file(filename=""):
     """ opeining the txt file"""
     with open(filename, encoding='utf-8') as read_file:
         for line in read_file:
-            print(line, end=" ")
+            print(line, end="")
