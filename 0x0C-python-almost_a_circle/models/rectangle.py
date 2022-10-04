@@ -5,6 +5,7 @@ from models.base import Base
 
 
 class Rectangle(Base):
+    """initalizing """
     def __init__(self, width, height, x=0, y=0, id=None):
         self.__width = width
         self.__height = height
@@ -114,3 +115,14 @@ class Rectangle(Base):
                     self.__width = value
                 elif key == "height":
                     self.__height = value
+
+    def to_dictionary(self):
+        """a dictionary representation of a Rectangle"""
+        dic = {
+                "id" : self.id,
+                "width" : self.width,
+                "height" : self.height,
+                "x" : self.x,
+                "y" : self.y
+            }
+        return dic
